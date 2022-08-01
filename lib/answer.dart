@@ -12,12 +12,16 @@ class Answer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final ButtonStyle style = ElevatedButton.styleFrom(
+        textStyle: const TextStyle(color: Colors.blue));
+
     return Container(
       width: double.infinity,
-      child: RaisedButton(
-        color: Colors.blue,
+      child: ElevatedButton(
+        //color: Colors.blue,
         // child: Text("Answer 1"),
-        textColor: Colors.white,
+        //textColor: Colors.white,
+        style: style,
         child: Text(answerText),
         onPressed: () => selectHandler(),
       ),
