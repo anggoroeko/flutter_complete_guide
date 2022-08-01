@@ -50,3 +50,11 @@ app.*.map.json
 *.h
 *.cmake
 *.swift
+/linux/flutter/*.cc
+/linux/flutter/*.h
+/linux/flutter/*.cmake
+/macos/Flutter/*.swift
+/windows/flutter/*.cc
+/windows/flutter/*.h
+/windows/flutter/*.cmake
+/*.lock
