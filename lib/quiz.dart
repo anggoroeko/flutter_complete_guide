@@ -10,9 +10,9 @@ class Quiz extends StatelessWidget {
   final VoidCallback answerQuestion;
 
   Quiz({
-    required this.questions,
     required this.answerQuestion,
     required this.questionIndex,
+    required this.questions,
   });
 
   @override
