@@ -23,7 +23,7 @@ class Answer extends StatelessWidget {
         //textColor: Colors.white,
         style: style,
         child: Text(answerText),
-        onPressed: () => selectHandler(),
+        onPressed: selectHandler,
       ),
     );
   }
